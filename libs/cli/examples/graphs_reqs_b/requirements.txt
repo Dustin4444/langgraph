@@ -2,3 +2,5 @@ requests
 langchain_anthropic
 langchain_openai
 langchain_community
+idna>=3.15 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.7.0 # not directly required, pinned by Snyk to avoid a vulnerability
